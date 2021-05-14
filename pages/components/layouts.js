@@ -1,8 +1,9 @@
+import layoutStyle from './layout.module.scss'
 
 const Layout = ({children}) => (
 
     <>
-        <div>{children}</div>
+        <div className={layoutStyle.container}>{children}</div>
     </>
 )
 
